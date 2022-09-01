@@ -8,9 +8,10 @@ import styles from '../project/ProjectForm.module.css'
 export default function ServiceForm({ handleSubmit, btnText, projectData }) {
 
     const [service, setService] = useState({})
-
+    
 
     function submit(e) {
+        
         e.preventDefault()
         projectData.services.push(service)
         handleSubmit(projectData)
@@ -29,7 +30,7 @@ export default function ServiceForm({ handleSubmit, btnText, projectData }) {
                 handleOnChange={handleChange}
             />
             <Input
-                type="text"
+                type="number"
                 text="Custo do serviço"
                 name="cost"
                 placeholder="Insira o valor total:"

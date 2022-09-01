@@ -25,6 +25,7 @@ function App() {
           <Route exact path={"/contact"} element={<Contact />} />
           <Route exact path={"/newproject"} element={<NewProject />} />
           <Route exact path={"/project/:id"} element={<Project />} />
+          
         </Routes>
       </Container>
       <Footer />

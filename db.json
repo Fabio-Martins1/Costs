@@ -1,26 +1,22 @@
 {
   "projects": [
     {
-      "name": "Teste de edição",
-      "budget": "13000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
       "name": "Teste",
-      "budget": "41212123",
+      "budget": "123",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 2
+      "cost": null,
+      "services": [
+        {
+          "name": "Teste",
+          "cost": "1",
+          "description": "Faz algo",
+          "id": "9beeb946-a3af-4d66-bfc6-37a33f1b5e8f"
+        }
+      ],
+      "id": 1
     }
   ],
   "categories": [
